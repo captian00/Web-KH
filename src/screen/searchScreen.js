@@ -9,6 +9,7 @@ import { ic_delete_forever } from "react-icons-kit/md/ic_delete_forever";
 import { plus } from "react-icons-kit/fa/plus";
 import { Link, useHistory } from "react-router-dom";
 import { info } from "react-icons-kit/fa/info";
+import {toDateString} from "../help/toDate.js";
 import callAPI from "../API/callAPI";
 
 class Search extends Component {
@@ -147,13 +148,13 @@ class Search extends Component {
           <Row>
             <Col>
               <h3>Danh sách đơn hàng</h3>
-              <div className="table-responsive">
+              <div >
                 <Table
                   bordered
                   style={
                     this.state.table_1 ? { display: "" } : { display: "none" }
                   }
-                  className="table-sm"
+                  className="table-lg"
                 >
                   <thead>
                     <tr>
@@ -178,7 +179,7 @@ class Search extends Component {
                         <th>{customer.nameG}</th>
                         <th>{customer.cost}</th>
                         <th>{customer.status}</th>
-                        <th>{new Date(customer.date).toString()}</th>
+                        <th>{toDateString(new Date(customer.date).toString())}</th>
                         <th>
                           <Row>
                             {/* <Col>
