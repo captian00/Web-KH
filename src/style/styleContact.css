@@ -1,0 +1,38 @@
+.contact{
+    margin-top: 1em;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+}
+
+#text{
+    height: 145px;
+}
+
+.btn-submit{
+    margin: 1em;
+    width: 145px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.infor{
+    text-align: start;
+}
+
+.canvas{
+    position: relative;
+    width: 100%;
+    margin-top: 2em;
+    margin-bottom: 5em;
+}
+
+.canvas .canvas_child{
+    position: absolute;
+    width: 40%;
+    border-bottom: 2px solid orangered;
+    text-align: center ;
+    left: 30%;
+   
+}

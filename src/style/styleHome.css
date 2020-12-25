@@ -1,0 +1,27 @@
+.home img{
+    width: 100%;
+}
+.home h2{
+    margin: 1em;
+}
+.home .container{
+    margin-bottom: 1em;
+    margin: 0 auto;
+    max-width: 90%;
+}
+
+.content{
+    width: 100%;
+    background-color: #EEE;
+}
+
+.content .service{
+    padding-bottom: 5em;
+}
+
+.content button{
+    width: 40%;
+    border: none;
+    border-radius: 40px;
+    background-color: #6FA8DC;
+}

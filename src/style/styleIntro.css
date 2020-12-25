@@ -1,0 +1,12 @@
+.intro{
+    margin: 0 auto;
+    width: 90%;
+}
+.intro-margin img{
+    width: 100%;
+   
+}
+
+.intro .sub{
+    text-align: start;
+}

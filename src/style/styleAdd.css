@@ -1,0 +1,7 @@
+.des{
+    height: 50em;
+}
+.center{
+    display: flex;
+    align-items: center;
+}

@@ -1,0 +1,25 @@
+.form-search .text-search{
+    border: 2px solid #6FA8DC;
+    height: 40px;   
+    margin: 0 1em;
+}
+
+.btn-add{
+    display: flex;
+    margin: 0.5em 0;
+    align-items: center;
+}
+.icon{
+    display: flex;
+    height: 100%;
+    border: none;
+}
+.md-10{
+    margin: 5px;
+}
+.pd-r10{
+    padding-right: 10px;
+}
+.pd-0{
+    padding: 0 important;
+}

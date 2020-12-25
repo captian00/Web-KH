@@ -1,0 +1,32 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.header .menu{
+    display: flex;
+    align-items: center;
+}
+
+.header .menu a{
+    color: #666666;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.header .menu a:hover{
+    color: #6FA8DC;
+}
+.logo_1{
+    display: none;
+}
+
+@media only screen and (max-width: 768px){
+    .logo_1{
+        display: inline;
+    }
+    .logo_2{
+        display: none;
+    }
+}
