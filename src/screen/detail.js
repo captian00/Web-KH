@@ -28,7 +28,7 @@ class Detail extends Component {
     return (
       <div>
         <h4>Thông Tin Chi Tiết</h4>
-        <Table className="table-responsive"
+        <Table className="table"
           bordered
           style={this.state.table_1 ? { display: "" } : { display: "none" }}
         >
